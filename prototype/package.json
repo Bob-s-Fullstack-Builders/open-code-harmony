@@ -4,11 +4,11 @@
   "description": "",
   "main": "runtest.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "mocha": "^10.0.0"
   }
 }
