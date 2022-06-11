@@ -2,6 +2,6 @@ FROM node:18-alpine
 
 WORKDIR /app
 
-RUN npm install --global mocha
+RUN npm install --location=global mocha
 
-CMD [ "node", "/app/test.js" ]
+CMD [ "mocha", "/app/test.js" ]
